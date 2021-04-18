@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-04-18T15:45:10.188+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/BPIT4607/settings/wcm/templates/article-page"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="BPIT4607/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="BPIT4607/components/container"
+            layout="responsiveGrid">
+            <experiencefragment
+                jcr:created="{Date}2021-04-18T15:30:42.337+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-04-18T15:31:03.408+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="BPIT4607/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/BPIT4607/us/en/site/header/master"/>
+            <container
+                jcr:lastModified="{Date}2021-04-18T15:34:14.976+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="BPIT4607/components/container"
+                layout="responsiveGrid">
+                <image
+                    jcr:created="{Date}2021-04-18T15:35:46.230+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-18T15:36:05.758+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="BPIT4607/components/image"
+                    editable="{Boolean}true"/>
+                <breadcrumb
+                    jcr:created="{Date}2021-04-18T15:36:51.229+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-18T15:36:51.229+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="BPIT4607/components/breadcrumb"/>
+                <container
+                    jcr:created="{Date}2021-04-18T15:37:57.229+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-18T15:39:58.686+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="BPIT4607/components/container"
+                    editable="{Boolean}true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="7"/>
+                    </cq:responsive>
+                </container>
+                <container_1850164620
+                    jcr:created="{Date}2021-04-18T15:42:00.325+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-18T15:42:00.325+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="BPIT4607/components/container"
+                    editable="{Boolean}true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="2"
+                            width="3"/>
+                    </cq:responsive>
+                </container_1850164620>
+            </container>
+            <experiencefragment_1386249601
+                jcr:created="{Date}2021-04-18T15:31:28.220+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-04-18T15:31:41.729+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="BPIT4607/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/BPIT4607/us/en/site/footer/master"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>
